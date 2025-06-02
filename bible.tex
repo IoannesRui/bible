@@ -18,8 +18,14 @@
 \usepackage{CJKulem} 
 % 跨页表格
 \usepackage{longtable}
+
 % 脚注每页重新编号
-\usepackage[perpage]{footmisc} 
+\usepackage[perpage]{footmisc}
+% 脚注尽量不分页
+\interfootnotelinepenalty=10000
+% 脚注分页报警
+\usepackage{fnbreak}
+
 % 页边距
 \usepackage{geometry}
 \usepackage{CJK}
